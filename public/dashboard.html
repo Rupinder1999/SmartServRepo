@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <link rel="stylesheet" href="../css/dashbordCss.css">
+    
+</head>
+    
+<body>
+
+    <div class="outer-top">
+        <h4>Company Metrics</h4>
+        <div class="outer-tile">
+            <div class="tile">
+                <p style="color: #41BF99;" class="p-top">$406,411.29</p>
+                <p class="p-bottom">Total Revenue</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">$620</p>
+                <p class="p-bottom">Total Jobs Avg</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">655</p>
+                <p class="p-bottom">Tickets Created</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">735</p>
+                <p class="p-bottom">Tickets Scheduled</p>
+            </div>
+            <div class="tile">
+                <p style="color: red;" class="p-top">$110,448.8</p>
+                <p class="p-bottom">Outstanding Amount</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">105</p>
+                <p class="p-bottom">Memberships Sold</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">436</p>
+                <p class="p-bottom">Jobs Completed</p>
+            </div>
+            <div class="tile">
+                <p class="p-top">65</p>
+                <p class="p-bottom">Total Canceled</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="outer-graph">
+        <div class="graph" >
+            <h4>Revenue by Job Location</h4>
+            <div class="bar1">
+                <canvas id="graph1"></canvas>
+            </div>
+        </div>
+
+        <div class="graph" >
+            <h4>Revenue by Job Type</h4>
+            <div class="bar2">
+                <canvas id="graph2"></canvas>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="../src/dashboard.js"></script>
+
+
+</html>
+

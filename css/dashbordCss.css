@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.outer-graph {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding : 0 3% 3%;
+}
+.graph {
+    width: 49%;
+}
+.bar1, .bar2 {
+    margin-top: 3%;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    padding : 4% 3% 3%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.p-top{
+    padding-bottom: 4%;
+
+}
+.p-bottom{
+    padding-top: 4%;
+}
+body {
+    background-color: rgb(231,231,231);
+}
+.outer-top {
+    padding : 1% 3% 0.5%;
+    
+}
+.outer-tile {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tile {
+   
+    border-left: 7px solid rgb(65,191,153);
+    margin-bottom: 1%;
+    box-shadow: 2px  2px 3px rgb(184,184,184);
+    background-color: white;
+    padding : 1% 2%;
+    width: 24%;
+}
+.outer-graph {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding : 0 3% 3%;
+}
+.graph {
+    width: 49%;
+}
+.bar1, .bar2 {
+    margin-top: 3%;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    padding : 2% 3% 1%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
