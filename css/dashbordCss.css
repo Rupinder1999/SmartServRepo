@@ -53,7 +53,7 @@ body {
     padding : 1% 2%;
     width: 24%;
 }
-.outer-graph {
+/* .outer-graph {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -61,7 +61,7 @@ body {
 }
 .graph {
     width: 49%;
-}
+} */
 .bar1, .bar2 {
     margin-top: 3%;
     width: 100%;

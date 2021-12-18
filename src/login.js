@@ -5,8 +5,8 @@ function emailValidation(email)
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 if(!email.match(mailformat))
 {
-   // alert("not valid mail")
-    waring+="- not valid mail \n"
+  
+    waring+="- email is not valid \n"
     test=false
     
 
@@ -17,7 +17,7 @@ function passwordValidation(password)
 {
     var format = /[!#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
     if(format.test(password)){
-        waring+='- only @ is allowed as special character in Password \n'
+        waring+='- only @ is allowed as a special character in the  password \n'
         test= false
     }
    
@@ -25,16 +25,16 @@ function passwordValidation(password)
     // Validate capital letters
     var upperCaseLetters = /[A-Z]/g;
     if(!password.match(upperCaseLetters)) {
-       // alert('password must contains atlest one Captial character')
-       waring+='- password must contains atlest one Captial character\n'
+      
+       waring+='- password must  contain an uppercase letter\n'
         test =false
     } 
   
     // Validate numbers
     let numbers = /[0-9]/g;
     if(!password.match(numbers)) {
-        //alert('password must contains a number')
-        waring+='- password must contains a number \n'
+      
+        waring+='- password must contain a number \n'
         test=false
     } 
   
